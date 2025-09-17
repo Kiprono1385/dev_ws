@@ -1,0 +1,3 @@
+[console_scripts]
+odom_publisher = slam.odom_publisher:main
+

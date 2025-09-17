@@ -1,0 +1,4 @@
+[console_scripts]
+ign_pose_to_tf = dekut_amr_description.ign_pose_to_tf:main
+odom_publisher = dekut_amr_description.odom_publisher:main
+

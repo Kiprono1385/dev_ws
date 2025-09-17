@@ -1,0 +1,1 @@
+/home/brian/dev_ws/build/articubot_1/ament_cmake_core/articubot_1Config-version.cmake

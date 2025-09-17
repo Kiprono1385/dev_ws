@@ -1,0 +1,35 @@
+[1.504s] Invoking command in '/home/brian/dev_ws/src/slam1': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data
+[1.891s] running egg_info
+[1.892s] creating ../../build/slam1/slam1.egg-info
+[1.895s] writing ../../build/slam1/slam1.egg-info/PKG-INFO
+[1.895s] writing dependency_links to ../../build/slam1/slam1.egg-info/dependency_links.txt
+[1.896s] writing entry points to ../../build/slam1/slam1.egg-info/entry_points.txt
+[1.896s] writing requirements to ../../build/slam1/slam1.egg-info/requires.txt
+[1.896s] writing top-level names to ../../build/slam1/slam1.egg-info/top_level.txt
+[1.896s] writing manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[1.898s] reading manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[1.899s] writing manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[1.899s] running build
+[1.899s] running build_py
+[1.900s] creating /home/brian/dev_ws/build/slam1/build
+[1.900s] creating /home/brian/dev_ws/build/slam1/build/lib
+[1.900s] creating /home/brian/dev_ws/build/slam1/build/lib/slam1
+[1.900s] copying slam1/__init__.py -> /home/brian/dev_ws/build/slam1/build/lib/slam1
+[1.900s] running install
+[1.901s] running install_lib
+[1.902s] creating /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1
+[1.903s] copying /home/brian/dev_ws/build/slam1/build/lib/slam1/__init__.py -> /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1
+[1.903s] byte-compiling /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1/__init__.py to __init__.cpython-310.pyc
+[1.904s] running install_data
+[1.904s] creating /home/brian/dev_ws/install/slam1/share/ament_index
+[1.904s] creating /home/brian/dev_ws/install/slam1/share/ament_index/resource_index
+[1.904s] creating /home/brian/dev_ws/install/slam1/share/ament_index/resource_index/packages
+[1.905s] copying resource/slam1 -> /home/brian/dev_ws/install/slam1/share/ament_index/resource_index/packages
+[1.905s] copying package.xml -> /home/brian/dev_ws/install/slam1/share/slam1
+[1.905s] creating /home/brian/dev_ws/install/slam1/share/slam1/launch
+[1.905s] copying launch/slam_launch.py -> /home/brian/dev_ws/install/slam1/share/slam1/launch
+[1.905s] running install_egg_info
+[1.908s] Copying ../../build/slam1/slam1.egg-info to /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1-0.0.0-py3.10.egg-info
+[1.913s] running install_scripts
+[1.945s] writing list of installed files to '/home/brian/dev_ws/build/slam1/install.log'
+[1.979s] Invoked command in '/home/brian/dev_ws/src/slam1' returned '0': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data

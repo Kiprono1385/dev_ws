@@ -1,0 +1,41 @@
+[1.145s] Invoking command in '/home/brian/dev_ws/build/dekut_amr_description': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brian/dev_ws/build/dekut_amr_description/build --no-deps symlink_data --force
+[1.515s] running develop
+[1.748s] running egg_info
+[1.748s] writing dekut_amr_description.egg-info/PKG-INFO
+[1.749s] writing dependency_links to dekut_amr_description.egg-info/dependency_links.txt
+[1.749s] writing entry points to dekut_amr_description.egg-info/entry_points.txt
+[1.749s] writing requirements to dekut_amr_description.egg-info/requires.txt
+[1.749s] writing top-level names to dekut_amr_description.egg-info/top_level.txt
+[1.753s] reading manifest file 'dekut_amr_description.egg-info/SOURCES.txt'
+[1.755s] writing manifest file 'dekut_amr_description.egg-info/SOURCES.txt'
+[1.757s] running build_ext
+[1.758s] Creating /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut-amr-description.egg-link (link to .)
+[1.759s] Installing ign_pose_to_tf script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[1.759s] Installing odom_publisher script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[1.760s] 
+[1.760s] Installed /home/brian/dev_ws/build/dekut_amr_description
+[1.760s] running symlink_data
+[1.760s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/resource/dekut_amr_description -> /home/brian/dev_ws/install/dekut_amr_description/share/ament_index/resource_index/packages
+[1.761s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/package.xml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description
+[1.761s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/launch/display.launch.py -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[1.761s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/launch/gazebo.launch.py -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[1.761s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/launch/bringup.launch.py -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[1.761s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/launch/robot_state.launch.py -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[1.762s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/urdf/materials.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[1.762s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/urdf/dekut_amr.gazebo -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[1.762s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/urdf/dekut_amr.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[1.762s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/urdf/dekut_amr.trans -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[1.762s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/urdf/ros2_control.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[1.763s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/wheelbl_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.763s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/wheelfr_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.763s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/lidar_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.763s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/wheelfl_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.763s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/camera_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/wheelbr_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/meshes/base_link.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/config/gazebo.rviz -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/config/ros_gz_bridge_gazebo.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/config/display.rviz -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[1.764s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/config/diff_drive.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[1.765s] symbolically linking /home/brian/dev_ws/build/dekut_amr_description/config/ros2_control.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[1.803s] Invoked command in '/home/brian/dev_ws/build/dekut_amr_description' returned '0': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brian/dev_ws/build/dekut_amr_description/build --no-deps symlink_data --force
