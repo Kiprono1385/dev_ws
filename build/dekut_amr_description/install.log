@@ -7,9 +7,6 @@
 /home/brian/dev_ws/install/dekut_amr_description/share/ament_index/resource_index/packages/dekut_amr_description
 /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.xml
 /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch/display.launch.py
-/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch/gazebo.launch.py
-/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch/bringup.launch.py
-/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch/robot_state.launch.py
 /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf/materials.xacro
 /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf/dekut_amr.gazebo
 /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf/dekut_amr.xacro

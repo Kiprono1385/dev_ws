@@ -1,0 +1,63 @@
+[1.822s] Invoking command in '/home/brian/dev_ws/src/dekut_amr_description': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data
+[2.254s] running egg_info
+[2.255s] creating ../../build/dekut_amr_description/dekut_amr_description.egg-info
+[2.256s] writing ../../build/dekut_amr_description/dekut_amr_description.egg-info/PKG-INFO
+[2.256s] writing dependency_links to ../../build/dekut_amr_description/dekut_amr_description.egg-info/dependency_links.txt
+[2.257s] writing entry points to ../../build/dekut_amr_description/dekut_amr_description.egg-info/entry_points.txt
+[2.257s] writing requirements to ../../build/dekut_amr_description/dekut_amr_description.egg-info/requires.txt
+[2.257s] writing top-level names to ../../build/dekut_amr_description/dekut_amr_description.egg-info/top_level.txt
+[2.258s] writing manifest file '../../build/dekut_amr_description/dekut_amr_description.egg-info/SOURCES.txt'
+[2.259s] reading manifest file '../../build/dekut_amr_description/dekut_amr_description.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/dekut_amr_description/dekut_amr_description.egg-info/SOURCES.txt'
+[2.262s] running build
+[2.262s] running build_py
+[2.262s] creating /home/brian/dev_ws/build/dekut_amr_description/build
+[2.262s] creating /home/brian/dev_ws/build/dekut_amr_description/build/lib
+[2.262s] creating /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description
+[2.262s] copying dekut_amr_description/odom_publisher.py -> /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description
+[2.262s] copying dekut_amr_description/ign_pose_to_tf.py -> /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description
+[2.263s] copying dekut_amr_description/__init__.py -> /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description
+[2.263s] running install
+[2.263s] running install_lib
+[2.263s] creating /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description
+[2.263s] copying /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description/odom_publisher.py -> /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description
+[2.264s] copying /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description/ign_pose_to_tf.py -> /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description
+[2.264s] copying /home/brian/dev_ws/build/dekut_amr_description/build/lib/dekut_amr_description/__init__.py -> /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description
+[2.265s] byte-compiling /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description/odom_publisher.py to odom_publisher.cpython-310.pyc
+[2.266s] byte-compiling /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description/ign_pose_to_tf.py to ign_pose_to_tf.cpython-310.pyc
+[2.266s] byte-compiling /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description/__init__.py to __init__.cpython-310.pyc
+[2.266s] running install_data
+[2.266s] creating /home/brian/dev_ws/install/dekut_amr_description/share/ament_index
+[2.267s] creating /home/brian/dev_ws/install/dekut_amr_description/share/ament_index/resource_index
+[2.267s] creating /home/brian/dev_ws/install/dekut_amr_description/share/ament_index/resource_index/packages
+[2.267s] copying resource/dekut_amr_description -> /home/brian/dev_ws/install/dekut_amr_description/share/ament_index/resource_index/packages
+[2.267s] copying package.xml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description
+[2.267s] creating /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[2.267s] copying launch/display.launch.py -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/launch
+[2.268s] creating /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.268s] copying urdf/materials.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.268s] copying urdf/dekut_amr.gazebo -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.268s] copying urdf/dekut_amr.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.268s] copying urdf/dekut_amr.trans -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.268s] copying urdf/ros2_control.xacro -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/urdf
+[2.269s] creating /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/wheelbl_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/wheelfr_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/lidar_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/wheelfl_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/camera_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.269s] copying meshes/wheelbr_link_1.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.270s] copying meshes/base_link.stl -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/meshes
+[2.270s] creating /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.270s] copying config/gazebo.rviz -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.270s] copying config/ros_gz_bridge_gazebo.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.270s] copying config/display.rviz -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.270s] copying config/diff_drive.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.270s] copying config/ros2_control.yaml -> /home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/config
+[2.271s] running install_egg_info
+[2.273s] Copying ../../build/dekut_amr_description/dekut_amr_description.egg-info to /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description-0.0.0-py3.10.egg-info
+[2.274s] running install_scripts
+[2.299s] Installing ign_pose_to_tf script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[2.299s] Installing odom_publisher script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[2.299s] writing list of installed files to '/home/brian/dev_ws/build/dekut_amr_description/install.log'
+[2.334s] Invoked command in '/home/brian/dev_ws/src/dekut_amr_description' returned '0': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data

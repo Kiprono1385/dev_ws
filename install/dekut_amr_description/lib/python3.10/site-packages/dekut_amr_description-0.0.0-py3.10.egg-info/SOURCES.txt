@@ -16,10 +16,7 @@ config/ros_gz_bridge_gazebo.yaml
 dekut_amr_description/__init__.py
 dekut_amr_description/ign_pose_to_tf.py
 dekut_amr_description/odom_publisher.py
-launch/bringup.launch.py
 launch/display.launch.py
-launch/gazebo.launch.py
-launch/robot_state.launch.py
 meshes/base_link.stl
 meshes/camera_link_1.stl
 meshes/lidar_link_1.stl

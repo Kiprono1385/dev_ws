@@ -1,1 +1,16 @@
-/home/brian/dev_ws/src/articubot_1/description/robot.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="articubot_1">
+
+  <!-- Include inertial macros first -->
+  <xacro:include filename="inertial_macros.xacro"/>
+
+  <!-- Include colours if needed -->
+  <xacro:include filename="colours.xacro"/>
+
+  <!-- Include core robot structure -->
+  <xacro:include filename="robot_core.xacro"/>
+  <xacro:include filename="gazebo_control.xacro"/>
+  <xacro:include filename="lidar.xacro" />
+  <xacro:include filename="camera.xacro" />
+
+</robot>

@@ -1,0 +1,4 @@
+[console_scripts]
+odom_publisher = odom_pub.odom_publisher:main
+teleop_keyboard = bringup.teleop_keyboard:main
+

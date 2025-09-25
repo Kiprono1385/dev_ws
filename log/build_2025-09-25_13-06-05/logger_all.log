@@ -1,0 +1,290 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bdef4c674f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bdef4c67010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bdef4c67010>>, mixin_verb=('build',))
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.377s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brian/dev_ws'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_1) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_1' with type 'ros.ament_cmake' and name 'articubot_1'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_python' and name 'bringup'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dekut_amr_description) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dekut_amr_description' with type 'ros.ament_python' and name 'dekut_amr_description'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam1) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam1' with type 'ros.ament_python' and name 'slam1'
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/brian/dev_ws/install
+[0.444s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/brian/ros2_ws/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'articubot_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brian/dev_ws/build/articubot_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brian/dev_ws/install/articubot_1', 'merge_install': False, 'path': '/home/brian/dev_ws/src/articubot_1', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brian/dev_ws/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brian/dev_ws/install/bringup', 'merge_install': False, 'path': '/home/brian/dev_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'dekut_amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'dekut_amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brian/dev_ws/build/dekut_amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brian/dev_ws/install/dekut_amr_description', 'merge_install': False, 'path': '/home/brian/dev_ws/src/dekut_amr_description', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'slam1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'slam1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brian/dev_ws/build/slam1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brian/dev_ws/install/slam1', 'merge_install': False, 'path': '/home/brian/dev_ws/src/slam1', 'symlink_install': False, 'test_result_base': None}
+[0.518s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brian/dev_ws/src/articubot_1' with build type 'ament_cmake'
+[0.520s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brian/dev_ws/src/articubot_1'
+[0.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brian/dev_ws/src/bringup' with build type 'ament_python'
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brian/dev_ws/src/dekut_amr_description' with build type 'ament_python'
+[0.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('dekut_amr_description', 'ament_prefix_path')
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/ament_prefix_path.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/ament_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/ament_prefix_path.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brian/dev_ws/src/slam1' with build type 'ament_python'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam1', 'ament_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/slam1/share/slam1/hook/ament_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/slam1/share/slam1/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/slam1/share/slam1/hook/ament_prefix_path.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brian/dev_ws/build/articubot_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/brian/dev_ws/build/articubot_1 -- -j4 -l4
+[0.974s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brian/dev_ws/src/bringup'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.335s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brian/dev_ws/src/dekut_amr_description'
+[1.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.692s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brian/dev_ws/src/slam1'
+[1.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brian/dev_ws/build/articubot_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/brian/dev_ws/build/articubot_1 -- -j4 -l4
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brian/dev_ws/build/articubot_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/brian/dev_ws/build/articubot_1
+[1.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_1)
+[1.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brian/dev_ws/build/articubot_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/brian/dev_ws/build/articubot_1
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1' for CMake module files
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1' for CMake config files
+[1.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_1', 'cmake_prefix_path')
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.ps1'
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/bin'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/lib/pkgconfig/articubot_1.pc'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/lib/python3.10/site-packages'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/bin'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.ps1'
+[1.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.sh'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.bash'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.zsh'
+[1.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brian/dev_ws/install/articubot_1/share/colcon-core/packages/articubot_1)
+[1.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_1)
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1' for CMake module files
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1' for CMake config files
+[1.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_1', 'cmake_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/articubot_1/share/articubot_1/hook/cmake_prefix_path.sh'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/bin'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/lib/pkgconfig/articubot_1.pc'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/lib/python3.10/site-packages'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/articubot_1/bin'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.ps1'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.sh'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.bash'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/articubot_1/share/articubot_1/package.zsh'
+[1.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brian/dev_ws/install/articubot_1/share/colcon-core/packages/articubot_1)
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brian/dev_ws/src/dekut_amr_description': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brian/dev_ws/src/slam1': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data
+[2.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brian/dev_ws/src/bringup': PYTHONPATH=/home/brian/dev_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/brian/dev_ws/build/bringup/build install --record /home/brian/dev_ws/build/bringup/install.log --single-version-externally-managed install_data
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description' for CMake module files
+[2.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brian/dev_ws/src/dekut_amr_description' returned '0': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description' for CMake config files
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description/lib'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description/bin'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description/lib/pkgconfig/dekut_amr_description.pc'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages'
+[2.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('dekut_amr_description', 'pythonpath')
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/pythonpath.ps1'
+[2.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/pythonpath.dsv'
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/hook/pythonpath.sh'
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/dekut_amr_description/bin'
+[2.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dekut_amr_description)
+[2.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.dsv'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.sh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.bash'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/dekut_amr_description/share/dekut_amr_description/package.zsh'
+[2.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brian/dev_ws/install/dekut_amr_description/share/colcon-core/packages/dekut_amr_description)
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1' for CMake module files
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brian/dev_ws/src/slam1' returned '0': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1' for CMake config files
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1/lib'
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1/bin'
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1/lib/pkgconfig/slam1.pc'
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages'
+[3.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam1', 'pythonpath')
+[3.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/slam1/share/slam1/hook/pythonpath.ps1'
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/slam1/share/slam1/hook/pythonpath.dsv'
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/slam1/share/slam1/hook/pythonpath.sh'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/slam1/bin'
+[3.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam1)
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/slam1/share/slam1/package.ps1'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brian/dev_ws/install/slam1/share/slam1/package.dsv'
+[3.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/slam1/share/slam1/package.sh'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/slam1/share/slam1/package.bash'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/slam1/share/slam1/package.zsh'
+[3.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brian/dev_ws/install/slam1/share/colcon-core/packages/slam1)
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup' for CMake module files
+[3.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brian/dev_ws/src/bringup' returned '0': PYTHONPATH=/home/brian/dev_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/brian/dev_ws/build/bringup/build install --record /home/brian/dev_ws/build/bringup/install.log --single-version-externally-managed install_data
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup' for CMake config files
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup/lib'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup/bin'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup/lib/pkgconfig/bringup.pc'
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages'
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/bringup/share/bringup/hook/pythonpath.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brian/dev_ws/install/bringup/share/bringup/hook/pythonpath.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brian/dev_ws/install/bringup/share/bringup/hook/pythonpath.sh'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/brian/dev_ws/install/bringup/bin'
+[3.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/bringup/share/bringup/package.ps1'
+[3.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brian/dev_ws/install/bringup/share/bringup/package.dsv'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/bringup/share/bringup/package.sh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/bringup/share/bringup/package.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/brian/dev_ws/install/bringup/share/bringup/package.zsh'
+[3.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brian/dev_ws/install/bringup/share/colcon-core/packages/bringup)
+[3.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.141s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.141s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.151s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.168s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brian/dev_ws/install/local_setup.ps1'
+[3.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brian/dev_ws/install/_local_setup_util_ps1.py'
+[3.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brian/dev_ws/install/setup.ps1'
+[3.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brian/dev_ws/install/local_setup.sh'
+[3.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brian/dev_ws/install/_local_setup_util_sh.py'
+[3.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brian/dev_ws/install/setup.sh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brian/dev_ws/install/local_setup.bash'
+[3.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brian/dev_ws/install/setup.bash'
+[3.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brian/dev_ws/install/local_setup.zsh'
+[3.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brian/dev_ws/install/setup.zsh'

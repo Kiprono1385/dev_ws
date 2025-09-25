@@ -3,6 +3,8 @@ from launch import LaunchDescription
 import xacro
 import os
 from ament_index_python.packages import get_package_share_directory
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.actions import IncludeLaunchDescription
 
 def generate_launch_description():
     share_dir = get_package_share_directory('dekut_amr_description')
@@ -28,7 +30,7 @@ def generate_launch_description():
         package='joint_state_publisher',
         executable='joint_state_publisher',
         name='joint_state_publisher',
-        parameters=[{'use_gui': False}]  # no GUI, publishes dummy joints
+        parameters=[{'use_gui': False}]
     )
 
     # RViz node
@@ -40,8 +42,11 @@ def generate_launch_description():
         output='screen'
     )
 
+   
+
     return LaunchDescription([
         robot_state_publisher_node,
         joint_state_publisher_node,
-        rviz_node
+        rviz_node,
+        
     ])

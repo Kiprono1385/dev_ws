@@ -22,6 +22,9 @@ setup(
     license='TODO',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [],
+        'console_scripts': [
+            "teleop_keyboard = slam1.teleop_keyboard:main",
+            "gamepad_teleop = slam1.gamepad_teleop:main",
+        ],
     },
 )

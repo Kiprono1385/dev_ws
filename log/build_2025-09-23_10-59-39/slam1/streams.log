@@ -1,0 +1,22 @@
+[2.218s] Invoking command in '/home/brian/dev_ws/src/slam1': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data
+[2.749s] running egg_info
+[2.751s] writing ../../build/slam1/slam1.egg-info/PKG-INFO
+[2.751s] writing dependency_links to ../../build/slam1/slam1.egg-info/dependency_links.txt
+[2.752s] writing entry points to ../../build/slam1/slam1.egg-info/entry_points.txt
+[2.752s] writing requirements to ../../build/slam1/slam1.egg-info/requires.txt
+[2.753s] writing top-level names to ../../build/slam1/slam1.egg-info/top_level.txt
+[2.756s] reading manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[2.758s] writing manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[2.759s] running build
+[2.759s] running build_py
+[2.759s] running install
+[2.759s] running install_lib
+[2.762s] running install_data
+[2.763s] running install_egg_info
+[2.765s] removing '/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.766s] Copying ../../build/slam1/slam1.egg-info to /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1-0.0.0-py3.10.egg-info
+[2.768s] running install_scripts
+[2.806s] Installing gamepad_teleop script to /home/brian/dev_ws/install/slam1/lib/slam1
+[2.806s] Installing teleop_keyboard script to /home/brian/dev_ws/install/slam1/lib/slam1
+[2.807s] writing list of installed files to '/home/brian/dev_ws/build/slam1/install.log'
+[2.848s] Invoked command in '/home/brian/dev_ws/src/slam1' returned '0': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[0.067s] Invoking command in '/home/brian/dev_ws/build/articubot_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/brian/dev_ws/build/articubot_1 -- -j4 -l4
+[1.640s] Invoked command in '/home/brian/dev_ws/build/articubot_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --build /home/brian/dev_ws/build/articubot_1 -- -j4 -l4
+[1.659s] Invoking command in '/home/brian/dev_ws/build/articubot_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/brian/dev_ws/build/articubot_1
+[1.680s] -- Install configuration: ""
+[1.686s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/config
+[1.686s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/config/empty.yaml
+[1.686s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description
+[1.686s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/robot.urdf.xacro
+[1.687s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/gazebo_control.xacro
+[1.687s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/inertial_macros.xacro
+[1.687s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/lidar.xacro
+[1.687s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/colours.xacro
+[1.691s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/camera.xacro
+[1.692s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/description/robot_core.xacro
+[1.692s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/launch
+[1.692s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/launch/__pycache__
+[1.695s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/launch/__pycache__/rsp.launch.cpython-310.pyc
+[1.695s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/launch/rsp.launch.py
+[1.695s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/launch/launch_sim.launch.py
+[1.696s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/worlds
+[1.696s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/worlds/empty.world
+[1.696s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/ament_index/resource_index/package_run_dependencies/articubot_1
+[1.696s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/ament_index/resource_index/parent_prefix_path/articubot_1
+[1.699s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/environment/ament_prefix_path.sh
+[1.699s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/environment/ament_prefix_path.dsv
+[1.699s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/environment/path.sh
+[1.700s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/environment/path.dsv
+[1.700s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/local_setup.bash
+[1.700s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/local_setup.sh
+[1.700s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/local_setup.zsh
+[1.700s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/local_setup.dsv
+[1.703s] -- Installing: /home/brian/dev_ws/install/articubot_1/share/articubot_1/package.dsv
+[1.703s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/ament_index/resource_index/packages/articubot_1
+[1.704s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/cmake/articubot_1Config.cmake
+[1.704s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/cmake/articubot_1Config-version.cmake
+[1.704s] -- Up-to-date: /home/brian/dev_ws/install/articubot_1/share/articubot_1/package.xml
+[1.704s] Invoked command in '/home/brian/dev_ws/build/articubot_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brian/dev_ws/install/slam1:/home/brian/dev_ws/install/dekut_amr_description:/home/brian/dev_ws/install/bringup:/home/brian/ros2_ws/install/camera_pkg:/opt/ros/humble /usr/bin/cmake --install /home/brian/dev_ws/build/articubot_1

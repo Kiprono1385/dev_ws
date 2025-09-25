@@ -1,0 +1,22 @@
+[1.727s] Invoking command in '/home/brian/dev_ws/src/dekut_amr_description': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data
+[2.071s] running egg_info
+[2.072s] writing ../../build/dekut_amr_description/dekut_amr_description.egg-info/PKG-INFO
+[2.072s] writing dependency_links to ../../build/dekut_amr_description/dekut_amr_description.egg-info/dependency_links.txt
+[2.073s] writing entry points to ../../build/dekut_amr_description/dekut_amr_description.egg-info/entry_points.txt
+[2.073s] writing requirements to ../../build/dekut_amr_description/dekut_amr_description.egg-info/requires.txt
+[2.073s] writing top-level names to ../../build/dekut_amr_description/dekut_amr_description.egg-info/top_level.txt
+[2.076s] reading manifest file '../../build/dekut_amr_description/dekut_amr_description.egg-info/SOURCES.txt'
+[2.078s] writing manifest file '../../build/dekut_amr_description/dekut_amr_description.egg-info/SOURCES.txt'
+[2.078s] running build
+[2.079s] running build_py
+[2.079s] running install
+[2.079s] running install_lib
+[2.081s] running install_data
+[2.082s] running install_egg_info
+[2.084s] removing '/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.085s] Copying ../../build/dekut_amr_description/dekut_amr_description.egg-info to /home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages/dekut_amr_description-0.0.0-py3.10.egg-info
+[2.086s] running install_scripts
+[2.111s] Installing ign_pose_to_tf script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[2.111s] Installing odom_publisher script to /home/brian/dev_ws/install/dekut_amr_description/lib/fusion2urdf_ros2
+[2.111s] writing list of installed files to '/home/brian/dev_ws/build/dekut_amr_description/install.log'
+[2.146s] Invoked command in '/home/brian/dev_ws/src/dekut_amr_description' returned '0': PYTHONPATH=/home/brian/dev_ws/build/dekut_amr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/dekut_amr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dekut_amr_description build --build-base /home/brian/dev_ws/build/dekut_amr_description/build install --record /home/brian/dev_ws/build/dekut_amr_description/install.log --single-version-externally-managed install_data

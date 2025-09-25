@@ -1,0 +1,41 @@
+[1.722s] Invoking command in '/home/brian/dev_ws/src/slam1': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data
+[2.039s] running egg_info
+[2.039s] creating ../../build/slam1/slam1.egg-info
+[2.041s] writing ../../build/slam1/slam1.egg-info/PKG-INFO
+[2.042s] writing dependency_links to ../../build/slam1/slam1.egg-info/dependency_links.txt
+[2.042s] writing entry points to ../../build/slam1/slam1.egg-info/entry_points.txt
+[2.042s] writing requirements to ../../build/slam1/slam1.egg-info/requires.txt
+[2.042s] writing top-level names to ../../build/slam1/slam1.egg-info/top_level.txt
+[2.042s] writing manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[2.043s] reading manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[2.045s] writing manifest file '../../build/slam1/slam1.egg-info/SOURCES.txt'
+[2.045s] running build
+[2.045s] running build_py
+[2.045s] creating /home/brian/dev_ws/build/slam1/build
+[2.045s] creating /home/brian/dev_ws/build/slam1/build/lib
+[2.045s] creating /home/brian/dev_ws/build/slam1/build/lib/slam1
+[2.045s] copying slam1/gamepad_teleop.py -> /home/brian/dev_ws/build/slam1/build/lib/slam1
+[2.046s] copying slam1/__init__.py -> /home/brian/dev_ws/build/slam1/build/lib/slam1
+[2.046s] running install
+[2.046s] running install_lib
+[2.047s] creating /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1
+[2.047s] copying /home/brian/dev_ws/build/slam1/build/lib/slam1/gamepad_teleop.py -> /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1
+[2.047s] copying /home/brian/dev_ws/build/slam1/build/lib/slam1/__init__.py -> /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1
+[2.048s] byte-compiling /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1/gamepad_teleop.py to gamepad_teleop.cpython-310.pyc
+[2.049s] byte-compiling /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1/__init__.py to __init__.cpython-310.pyc
+[2.049s] running install_data
+[2.049s] creating /home/brian/dev_ws/install/slam1/share/ament_index
+[2.049s] creating /home/brian/dev_ws/install/slam1/share/ament_index/resource_index
+[2.050s] creating /home/brian/dev_ws/install/slam1/share/ament_index/resource_index/packages
+[2.050s] copying resource/slam1 -> /home/brian/dev_ws/install/slam1/share/ament_index/resource_index/packages
+[2.050s] copying package.xml -> /home/brian/dev_ws/install/slam1/share/slam1
+[2.050s] creating /home/brian/dev_ws/install/slam1/share/slam1/launch
+[2.050s] copying launch/slam_launch.py -> /home/brian/dev_ws/install/slam1/share/slam1/launch
+[2.050s] copying launch/nav2_launch.py -> /home/brian/dev_ws/install/slam1/share/slam1/launch
+[2.050s] running install_egg_info
+[2.053s] Copying ../../build/slam1/slam1.egg-info to /home/brian/dev_ws/install/slam1/lib/python3.10/site-packages/slam1-0.0.0-py3.10.egg-info
+[2.054s] running install_scripts
+[2.077s] Installing gamepad_teleop script to /home/brian/dev_ws/install/slam1/lib/slam1
+[2.077s] Installing teleop_keyboard script to /home/brian/dev_ws/install/slam1/lib/slam1
+[2.078s] writing list of installed files to '/home/brian/dev_ws/build/slam1/install.log'
+[2.107s] Invoked command in '/home/brian/dev_ws/src/slam1' returned '0': PYTHONPATH=/home/brian/dev_ws/build/slam1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/slam1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam1 build --build-base /home/brian/dev_ws/build/slam1/build install --record /home/brian/dev_ws/build/slam1/install.log --single-version-externally-managed install_data

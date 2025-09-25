@@ -1,3 +1,4 @@
 [console_scripts]
-
+gamepad_teleop = slam1.gamepad_teleop:main
+teleop_keyboard = slam1.teleop_keyboard:main
 

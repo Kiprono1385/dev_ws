@@ -8,9 +8,11 @@ setup.py
 ../../build/slam1/slam1.egg-info/requires.txt
 ../../build/slam1/slam1.egg-info/top_level.txt
 ../../build/slam1/slam1.egg-info/zip-safe
+launch/nav2_launch.py
 launch/slam_launch.py
 resource/slam1
 slam1/__init__.py
+slam1/gamepad_teleop.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
