@@ -1,0 +1,22 @@
+[2.568s] Invoking command in '/home/brian/dev_ws/src/bringup': PYTHONPATH=/home/brian/dev_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/brian/dev_ws/build/bringup/build install --record /home/brian/dev_ws/build/bringup/install.log --single-version-externally-managed install_data
+[3.254s] running egg_info
+[3.256s] writing ../../build/bringup/bringup.egg-info/PKG-INFO
+[3.256s] writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt
+[3.256s] writing entry points to ../../build/bringup/bringup.egg-info/entry_points.txt
+[3.257s] writing requirements to ../../build/bringup/bringup.egg-info/requires.txt
+[3.257s] writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt
+[3.260s] reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[3.263s] writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+[3.263s] running build
+[3.263s] running build_py
+[3.264s] running install
+[3.264s] running install_lib
+[3.268s] running install_data
+[3.269s] running install_egg_info
+[3.271s] removing '/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[3.272s] Copying ../../build/bringup/bringup.egg-info to /home/brian/dev_ws/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[3.274s] running install_scripts
+[3.313s] Installing odom_publisher script to /home/brian/dev_ws/install/bringup/lib/bringup
+[3.316s] Installing teleop_keyboard script to /home/brian/dev_ws/install/bringup/lib/bringup
+[3.316s] writing list of installed files to '/home/brian/dev_ws/build/bringup/install.log'
+[3.361s] Invoked command in '/home/brian/dev_ws/src/bringup' returned '0': PYTHONPATH=/home/brian/dev_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brian/dev_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bringup build --build-base /home/brian/dev_ws/build/bringup/build install --record /home/brian/dev_ws/build/bringup/install.log --single-version-externally-managed install_data
