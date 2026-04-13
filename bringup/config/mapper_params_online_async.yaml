@@ -1,0 +1,88 @@
+slam_toolbox:
+  ros__parameters:
+    ###################################
+    # Solver settings (Ceres backend)
+    ###################################
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    ###################################
+    # Frames / topics
+    ###################################
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link      # changed from base_link → now centered
+    scan_topic: /scan
+    use_map_saver: true
+    mode: mapping                   # use "localization" if using a saved map
+    use_sim_time: false
+
+    ###################################
+    # Map publishing & transforms
+    ###################################
+    debug_logging: false
+    throttle_scans: 1
+    transform_publish_period: 0.01   # publish TF at 100 Hz
+    map_update_interval: 0.2         # frequent updates for fast correction
+    resolution: 0.01                 # fine map (1 cm per cell)
+    min_laser_range: 0.15
+    max_laser_range: 12.0
+    minimum_time_interval: 0.02
+    transform_timeout: 0.1
+    tf_buffer_duration: 30.0
+    stack_size_to_use: 40000000
+    enable_interactive_mode: true
+
+    ###################################
+    # Scan matching / odom correction
+    ###################################
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.01
+    minimum_travel_heading: 0.01
+    scan_buffer_size: 8
+    scan_buffer_maximum_scan_distance: 12.0
+    link_match_minimum_response_fine: 0.12
+    link_scan_maximum_distance: 2.5
+
+    ###################################
+    # Loop closure tuning
+    ###################################
+    do_loop_closing: true
+    loop_search_maximum_distance: 2.5
+    loop_match_minimum_chain_size: 8
+    loop_match_maximum_variance_coarse: 2.0
+    loop_match_minimum_response_coarse: 0.45
+    loop_match_minimum_response_fine: 0.55
+
+    ###################################
+    # Correlation and search tuning
+    ###################################
+    correlation_search_space_dimension: 0.2
+    correlation_search_space_resolution: 0.005
+    correlation_search_space_smear_deviation: 0.03
+
+    loop_search_space_dimension: 4.0
+    loop_search_space_resolution: 0.02
+    loop_search_space_smear_deviation: 0.015
+
+    ###################################
+    # Scan matcher penalties
+    ###################################
+    distance_variance_penalty: 0.6
+    angle_variance_penalty: 1.2
+
+    fine_search_angle_offset: 0.00175
+    coarse_search_angle_offset: 0.1745
+    coarse_angle_resolution: 0.01745
+    minimum_angle_penalty: 0.95
+    minimum_distance_penalty: 0.6
+    use_response_expansion: true
+    min_pass_through: 2
+    occupancy_threshold: 0.12
+
+    
